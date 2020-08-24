@@ -2,7 +2,6 @@ package by.jrr.jis4.bean;
 
 import java.util.Objects;
 
-
 public class Human {
     private  String name;
     private int age;
