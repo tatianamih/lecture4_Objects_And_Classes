@@ -18,6 +18,7 @@ public class HumanServiceTest {
         assertEquals(expected, actual);
         System.out.println();
     }
+
     @Test
     public void greetingFromFrank() {
         Human human = new Human();
@@ -29,6 +30,7 @@ public class HumanServiceTest {
         assertEquals(expected, actual);
         System.out.println();
     }
+
     @Test
     public void greetingFromWalter() {
         Human human = new Human();
@@ -40,6 +42,7 @@ public class HumanServiceTest {
         assertEquals(expected, actual);
         System.out.println();
     }
+
     @Test
     public void greetingFromLouisa() {
         Human human = new Human();
@@ -51,6 +54,7 @@ public class HumanServiceTest {
         assertEquals(expected, actual);
         System.out.println();
     }
+
     @Test
     public void greetingFromKate() {
         Human human = new Human();
@@ -62,6 +66,7 @@ public class HumanServiceTest {
         assertEquals(expected, actual);
         System.out.println();
     }
+
     @Test
     public void greetingFromVictor() {
         Human human = new Human();

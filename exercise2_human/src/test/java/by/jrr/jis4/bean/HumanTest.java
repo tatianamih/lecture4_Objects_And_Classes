@@ -74,7 +74,6 @@ public class HumanTest {
         Human alex = new Human();
         alex.setAge(10);
 
-        System.out.println(alex.hashCode());
         Integer expected = 971;
         Integer actual = alex.hashCode();
         assertEquals(expected, actual);
@@ -85,7 +84,6 @@ public class HumanTest {
         Human betty = new Human();
         betty.setName("Betty");
 
-        System.out.println(betty.toString());
         String expected = "Human{name='Betty', age=0}";
         String actual = betty.toString();
         assertEquals(expected, actual);
@@ -95,7 +93,6 @@ public class HumanTest {
         Human betty = new Human();
         betty.setAge(23);
 
-        System.out.println(betty.toString());
         String expected = "Human{name='null', age=23}";
         String actual = betty.toString();
         assertEquals(expected, actual);
@@ -106,7 +103,7 @@ public class HumanTest {
         alan.setAge(23);
 
         Human jimmy = new Human();
-       jimmy.setAge(14);
+        jimmy.setAge(14);
 
         boolean expected = false;
         boolean actual = alan.equals(jimmy);

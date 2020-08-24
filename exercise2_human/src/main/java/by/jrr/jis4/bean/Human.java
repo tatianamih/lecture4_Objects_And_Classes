@@ -7,7 +7,7 @@ public class Human {
     private int age;
 
     public Human() {
-        // no args constructor
+        //  no args constructor
     }
 
     public String getName() {
