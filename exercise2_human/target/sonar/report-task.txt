@@ -1,0 +1,7 @@
+organization=tatianamih
+projectKey=tatianamih_lecture4_Objects_And_Classes
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.11115
+dashboardUrl=https://sonarcloud.io/dashboard?id=tatianamih_lecture4_Objects_And_Classes
+ceTaskId=AXQf5zdSsmGqjRV3_MET
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXQf5zdSsmGqjRV3_MET
