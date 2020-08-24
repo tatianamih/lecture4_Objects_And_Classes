@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+endocoder,by.jrr.jis4.bean,Endocoder,53,17,10,0,6,8,8,5,3,5
+endocoder,jis4.bean,Endocoder,2,68,2,8,0,14,2,11,0,8
+endocoder,jis4.bean,Circle,51,0,8,0,11,0,10,0,6,0
+endocoder,by.jrr.jis4.service,EndocoderService,0,11,0,0,0,3,0,3,0,3
+endocoder,by.jrr.jis4.service,App,4,0,0,0,2,0,2,0,2,0
+endocoder,jis4.service,EndocoderService,0,11,0,0,0,3,0,3,0,3
+endocoder,jis4.service,App,4,0,0,0,2,0,2,0,2,0
