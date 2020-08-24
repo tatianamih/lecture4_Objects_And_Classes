@@ -14,7 +14,6 @@ public class EncoderTest {
         char expected = 'A';
         char actual = encoder.getSymbol();
         assertEquals(expected, actual);
-
     }
 
     @Test
@@ -38,8 +37,8 @@ public class EncoderTest {
         boolean expected = false;
         boolean actual = firstCode.equals(secondCode);
         assertEquals(expected, actual);
-
     }
+    
     @Test
     public void testEqualsSymbol() {
         Encoder firstSymbol = new Encoder();
@@ -51,8 +50,8 @@ public class EncoderTest {
         boolean expected = false;
         boolean actual = firstSymbol.equals(secondSymbol);
         assertEquals(expected, actual);
-
     }
+    
     @Test
     public void testEqualsCodeTrue() {
         Encoder code = new Encoder();
@@ -62,6 +61,7 @@ public class EncoderTest {
         boolean actual = code.equals(code);
         assertEquals(expected, actual);
     }
+    
     @Test
     public void testEqualsCodeFalse() {
         Encoder code = new Encoder();
@@ -100,7 +100,6 @@ public class EncoderTest {
         Integer expected = 1027;
         Integer actual = code.hashCode();
         assertEquals(expected, actual);
-
     }
 
     @Test
@@ -112,7 +111,6 @@ public class EncoderTest {
         Integer expected = 3069;
         Integer actual = symbol.hashCode();
         assertEquals(expected, actual);
-
     }
 
     @Test

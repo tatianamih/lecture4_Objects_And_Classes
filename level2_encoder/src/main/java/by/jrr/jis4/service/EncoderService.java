@@ -6,7 +6,6 @@ import by.jrr.jis4.bean.Encoder;
 public class EncoderService {
 
     public char encode(Encoder encoder) {
-
         return (char) encoder.getCode();
     }
 

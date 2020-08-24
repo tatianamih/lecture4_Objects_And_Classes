@@ -7,7 +7,7 @@ public class Encoder {
     private short code;
 
     public Encoder() {
-        // no args constructor
+        //  no args constructor
     }
 
     public char getSymbol() {
