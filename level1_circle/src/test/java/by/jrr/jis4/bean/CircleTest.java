@@ -1,6 +1,5 @@
 package by.jrr.jis4.bean;
 
-
 import org.junit.Test;
 
 import static org.junit.Assert.*;

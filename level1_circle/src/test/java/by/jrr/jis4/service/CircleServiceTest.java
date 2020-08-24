@@ -2,8 +2,6 @@ package by.jrr.jis4.service;
 
 import by.jrr.jis4.bean.Circle;
 import org.junit.Test;
-
-
 import static org.junit.Assert.*;
 
 public class CircleServiceTest {
