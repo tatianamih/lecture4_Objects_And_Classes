@@ -29,6 +29,7 @@ public class CircleTest {
         boolean actual = firstCircle.equals(secondCircle);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsTrue() {
        Circle circle = new Circle();
@@ -38,6 +39,7 @@ public class CircleTest {
         boolean actual = circle.equals(circle);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsFalse() {
         Circle circle = new Circle();
@@ -47,6 +49,7 @@ public class CircleTest {
         boolean actual = circle.equals(false);
         assertEquals(expected, actual);
     }
+
 
     @Test
     public void testHashCode() {
