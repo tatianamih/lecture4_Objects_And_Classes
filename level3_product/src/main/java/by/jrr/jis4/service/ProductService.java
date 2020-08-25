@@ -9,6 +9,7 @@ public double actualPrice(Product product){
 
     return (double) secondIntermediateCalculationOfTheRegularPrice / 100;
 }
+
 public String printInformation(Product product){
     ProductService productService = new ProductService();
     String printInformationAboutName = "Product : name = " + product.getName() + ", ";

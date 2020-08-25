@@ -51,6 +51,7 @@ public class ProductTest {
         boolean actual = firstProduct.equals(secondProduct);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsRegularRrice() {
         Product milkChocolate = new Product();
@@ -63,6 +64,7 @@ public class ProductTest {
         boolean actual = milkChocolate.equals(darkChocolate);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsDiscount() {
         Product milkChocolate = new Product();
@@ -75,6 +77,7 @@ public class ProductTest {
         boolean actual = milkChocolate.equals(darkChocolate);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsTrue() {
         Product milkChocolate = new Product();
@@ -84,6 +87,7 @@ public class ProductTest {
         boolean actual = milkChocolate.equals(milkChocolate);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsFalse() {
         Product darkChocolate = new Product();

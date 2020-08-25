@@ -8,7 +8,7 @@ public class Product {
    private double discount;
 
     public Product() {
-        // no args constructor
+        //no args constructor
     }
 
     public String getName() {

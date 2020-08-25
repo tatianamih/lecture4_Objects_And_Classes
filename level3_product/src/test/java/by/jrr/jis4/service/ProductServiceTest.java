@@ -18,7 +18,6 @@ public class ProductServiceTest {
         double actual = productService.actualPrice(product);
         double delta = 0;
         assertEquals(expected, actual, delta);
-
     }
 
     @Test
